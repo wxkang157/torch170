@@ -6,6 +6,6 @@ FROM tf113/py:latest
 #RUN pip install dataclasses
 #RUN pip install fvcore
 #RUN pip install tensorboardX
-RUN pip install easy_dict
+RUN pip install easydict
 RUN pip install scipy==1.2.0
 
